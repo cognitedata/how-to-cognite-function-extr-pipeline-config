@@ -1,0 +1,7 @@
+common_folder: common
+description: "Cognite Function that emits a simple Sine curve into a time series in CDF"
+owner: your.name@domain.com
+cpu: 0.25
+memory: 1.00
+metadata:
+  version: "1.0.0"

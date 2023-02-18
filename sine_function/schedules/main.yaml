@@ -1,0 +1,4 @@
+- name: sine-function-schedule
+  cron: "0 10 * * *"
+  data:
+    ExtractionPipelineExtId: "sine-function"

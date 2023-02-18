@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "how-to-cognite-function-extr-pipeline-config"
+version = "0.1.0"
+description = ""
+authors = ["Frank Robin Danielsen <frank.danielsen@cognite.com>"]
+readme = "README.md"
+packages = [{include = "how_to_cognite_function_extr_pipeline_config"},{ include = "**/*.py", from = "."  }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cognite-sdk = "^5.5.1"
+python-dotenv = "0.19.2"
+arrow = "^1.2.3"
+pyyaml = "^6.0"
+pandas = "^1.5.3"
+cognite-extractor-utils = "^4.1.0"
+cognite-logger = "^0.5.1"
+pre-commit = "^3.0.4"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
